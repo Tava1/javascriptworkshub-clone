@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #6e7f89;
+}
+
+p {
+  color: #4a4a4a;
+  line-height: 1.50em;
+}
+
+input, button, textarea {
+  font: 200 12px 'Montserrat', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.button {
+  border: none;
+  background-color: #FF7C67;
+  color: #FFF;
+  border-radius: 2px;
+  padding: 6px 12px;
+  height: 40px;
+  transition: ease-in-out 200ms;
+  font-weight: 600;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+/* Link Component */
+.link-item {
+  text-decoration: none;
+  color: #6E7F89;
+}

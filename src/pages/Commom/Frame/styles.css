@@ -1,0 +1,28 @@
+.frame-container {
+  width: 250px;
+  margin: 2em 2em;
+}
+
+.frame-container .frame-box {
+  height: 190px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.frame-container .frame-box img {
+  display: flex;
+  width: 125px;
+}
+
+.frame-container .frame-context h4 {
+  color: #ff7c6e;
+  margin-top: 3em;
+  text-align: center;
+}
+
+.frame-container .frame-context p {
+  margin-top: 2em;
+  font-family: 'Inconsolata', monospace;
+  text-align: left;
+}

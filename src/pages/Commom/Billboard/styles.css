@@ -1,0 +1,25 @@
+.billboard-container {
+  width: 100%;
+  padding: 1.75em 0;
+  margin: 2.50em auto;
+  background-color: #f4f5f8;
+}
+
+.billboard-container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.billboard-container ul li {
+  width: 135px;
+  margin: 0 2em;
+}
+
+.billboard-container ul :first-child {
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+}
+.billboard-container ul li + li img {
+  width: 100%;
+}

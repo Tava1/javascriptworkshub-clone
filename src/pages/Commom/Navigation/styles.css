@@ -1,0 +1,46 @@
+header {
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3em;
+  border-bottom: 1px solid rgba(110, 127, 137, 0.301);
+}
+
+header .navigation {
+  display: flex;
+  align-items: center;
+}
+
+header .navigation img {
+  width: 40px;
+  margin-right: 20px;
+}
+
+header .navigation span {
+  letter-spacing: 2px;
+}
+
+header .navigation-bar ul {
+  list-style-type: none;
+}
+
+header .navigation-bar ul li {
+  display: inline;
+  font-weight: 600;
+}
+
+header .navigation-bar ul li {
+  margin-left: 20px;
+}
+
+header .navigation-start span {
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+header .navigation-start button {
+  background-color: #FF7C67;
+  width: 135px;
+}
+

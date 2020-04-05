@@ -1,0 +1,29 @@
+.hero-container {
+  width: 1200px;
+  margin: 2em auto;
+  display: flex;
+  align-items: center;
+}
+
+.hero-container .hero-illustation {
+  width: 610px;
+}
+
+.hero-container .hero-illustation img {
+  width: 100%;
+}
+
+.hero-container .hero-context h2 {
+  font-size: 44px;
+  font-weight: 800;
+}
+
+.hero-container .hero-context p {
+  margin: 24px 0;
+  font-family: 'Inconsolata', monospace;
+}
+
+.hero-container .hero-context .hero-buttons :first-child {
+  background-color: #24292E;
+  margin-right: 10px;
+}
