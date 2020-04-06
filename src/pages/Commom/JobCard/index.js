@@ -4,6 +4,8 @@ import Button from '../Button'
 import './styles.css'
 
 export default function JobCard() {
+  const labels = ["JAVASCRIPT", "REACT.JS", "NODE.JS", "REACT.NATIVE"];
+
   return (
     <div className="card-container">
       <div className="card-image">
@@ -39,10 +41,9 @@ export default function JobCard() {
 
       <div className="card-job-labels">
         <ul>
-          <li>JAVASCRIPT</li>
-          <li>REACT</li>
-          <li>NODE.JS</li>
-          <li>REACT.NATIVE</li>
+          {labels.map(label => (
+            <li>{label}</li>
+          ))}
         </ul>
       </div>
       <div className="card-actions">
