@@ -4,6 +4,9 @@ import Navigation from '../Commom/Navigation';
 import Hero from '../Commom/Hero';
 import Billboard from '../Commom/Billboard'
 import Frame from '../Commom/Frame';
+import JobCard from '../Commom/JobCard';
+import Button from '../Commom/Button';
+
 
 import heroImage from '../assets/hero-home.svg'
 
@@ -31,6 +34,20 @@ export default function Home() {
         description={"Join engineers from:"}
       />
 
+      <div className="jobs-container">
+        <div className="benefits-context">
+          <p>
+            BROWSE ROLES AT THE TOP TECH COMPANIES
+          </p>
+          <h3>See who’s hiring</h3>
+        </div>
+        <div className="benefits-content">
+          <JobCard />
+          <JobCard />
+          <JobCard />
+        </div>
+      </div>
+
       <div className="benefits-container">
         <div className="benefits-context">
           <p>
@@ -38,29 +55,39 @@ export default function Home() {
           </p>
           <h3>Open source issues</h3>
         </div>
-
-
-        <div className="benefits-content">
-          <Frame
-            image={benefit1}
-            description={"Learn new languages and add new skills to your resume"}
-          />
-          <Frame
-            image={benefit2}
-            description={"Get paid to contribute to projects you find interesting"}
-          />
-          <Frame
-            image={benefit3}
-            description={"Learn about a company’s stack and culture before even applying"}
-          />
-          <Frame
-            image={benefit4}
-            description={"Get Fast-tracked for full time jobs at companies you’ve already worked for"}
-          />
+        <div className="benefits-container">
+          <div className="benefits-content">
+            <Frame
+              image={benefit1}
+              description={"Learn new languages and add new skills to your resume"}
+            />
+            <Frame
+              image={benefit2}
+              description={"Get paid to contribute to projects you find interesting"}
+            />
+            <Frame
+              image={benefit3}
+              description={"Learn about a company’s stack and culture before even applying"}
+            />
+            <Frame
+              image={benefit4}
+              description={"Get Fast-tracked for full time jobs at companies you’ve already worked for"}
+            />
+          </div>
+          <div className="benefits-buttons">
+            <Button
+              outline
+              large
+              context={"HOW IT WORKS"}
+            />
+            <Button
+              primary
+              large
+              context={"VIEW ALL OPEN SOURCE ISSUES"}
+            />
+          </div>
         </div>
       </div>
-
-
 
       <div className="benefits-container">
         <div className="benefits-context">
@@ -69,8 +96,6 @@ export default function Home() {
           </p>
           <h3>How we’re different</h3>
         </div>
-
-
         <div className="benefits-content">
           <Frame
             image={different1}
@@ -87,12 +112,21 @@ export default function Home() {
             title={"We’re the future of tech work"}
             description={"With our Open Source issues, you can get paid, learn new languages and get noticed by employers. We’re leveraging the power of open source to help you further your career."}
           />
+        </div>
+        <div className="benefits-buttons">
+          <Button
+            secondary
+            large
+            context={"GET STARTED WITH GITHUB"}
+          />
 
+          <Button
+            primary
+            large
+            context={"GET STARTED"}
+          />
         </div>
       </div>
-
-
-
     </div>
   );
 }

@@ -1,10 +1,15 @@
 header {
+  background: #fff;
   height: 75px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 3em;
   border-bottom: 1px solid rgba(110, 127, 137, 0.301);
+  position: fixed;
+  top: 0;
+  z-index: 10000;
 }
 
 header .navigation {
@@ -39,8 +44,8 @@ header .navigation-start span {
   font-weight: 600;
 }
 
-header .navigation-start button {
+/* header .navigation-start button {
   background-color: #FF7C67;
   width: 135px;
-}
+} */
 

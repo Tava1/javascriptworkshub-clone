@@ -1,18 +1,23 @@
 .benefits-container {
   text-align: center;
 }
+.benefits-context {
+  text-align: center;
+}
 
-.benefits-container .benefits-context p {
+.benefits-context p {
   font-family: "Inconsolata", monospace;
   margin: 2em 0;
 }
 
-.benefits-container .benefits-context h3 {
+.benefits-context h3 {
   color: #ff7c6e;
   font-size: 2em;
+  margin-bottom: 1.5em;
 }
 
-.benefits-container .benefits-content {
+.benefits-content {
   display: flex;
   justify-content: center;
+  margin-bottom: 1em;
 }

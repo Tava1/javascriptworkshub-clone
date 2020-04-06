@@ -1,6 +1,6 @@
 .hero-container {
   width: 1200px;
-  margin: 2em auto;
+  margin: 6em auto 0 auto;
   display: flex;
   align-items: center;
 }
@@ -24,6 +24,5 @@
 }
 
 .hero-container .hero-context .hero-buttons :first-child {
-  background-color: #24292E;
   margin-right: 10px;
 }

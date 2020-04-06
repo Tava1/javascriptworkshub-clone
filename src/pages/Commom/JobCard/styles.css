@@ -1,0 +1,105 @@
+.card-container {
+  width: 309px;
+  height: 374px;
+  padding: 18px;
+  margin: 9px;
+  box-shadow: 5px 6px 10px 4px rgba(67, 78, 85, 0.2);
+  position: relative;
+}
+
+.card-container .card-image {
+  position: absolute;
+  right: 18px;
+  top: 18px;
+}
+
+.card-container .card-image .circle{
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  background-color: cornflowerblue;
+}
+
+.card-container .card-context {
+  height: 160px;
+}
+
+.card-container .card-context .card-job-description h2{
+  font-size: 14px;
+  color: #434e55;
+  margin-bottom: 6px;
+}
+
+.card-container .card-context .card-job-description h2:hover{
+  color: #ff7c6e;
+}
+
+.card-container .card-context .card-job-description h4{
+  font-size: 13px;
+  color: #ff7c6e;
+}
+
+.card-container .card-context .card-job-description p{
+  font-size: 13px;
+}
+
+.card-container .card-job-company {
+  margin: 1em 0;
+}
+
+.card-container .card-job-company-name {
+  margin: 2px 0;
+  display: flex;
+}
+
+.card-container .card-job-company-name :first-child {
+  margin-right: 8px;
+}
+
+.card-container .card-job-company-name span {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.card-container .card-job-company-location {
+  margin: 2px 0;
+  display: flex;
+}
+
+.card-container .card-job-company-location :first-child {
+  margin-right: 8px;
+}
+
+
+.card-container .card-job-company-location span {
+  font-size: 13px;
+}
+
+.card-job-sponsored {
+  margin: 10px 0;
+  display: flex;
+}
+
+.card-job-sponsored :first-child {
+  margin-right: 8px;
+}
+
+.card-job-sponsored span {
+  font-size: 13px;
+} 
+
+.card-container .card-job-labels {
+  height: 82px;
+  margin-top: 20px;
+}
+
+.card-container .card-job-labels ul li {
+  background: #ffe9e7;
+  color: #ff7c6e;
+  margin: 0 3px 3px 0;
+  padding: 8px;
+  font-size: 11px;
+  font-weight: 600;
+
+  display: inline-flex;
+}

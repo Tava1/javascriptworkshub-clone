@@ -29,7 +29,7 @@ ul {
 button {
   cursor: pointer;
 }
-
+/*
 .button {
   border: none;
   background-color: #FF7C67;
@@ -40,10 +40,10 @@ button {
   transition: ease-in-out 200ms;
   font-weight: 600;
 }
-
 .button:hover {
   opacity: 0.8;
 }
+*/
 
 /* Link Component */
 .link-item {

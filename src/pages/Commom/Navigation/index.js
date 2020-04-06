@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import Button from '../Button'
 import './styles.css'
 
 import logoImg from '../../assets/logo.png'
@@ -32,7 +33,12 @@ export default function Navigation() {
             Login
           </Link>
         </span>
-        <button className="button">GET STARTED</button>
+        <Button
+          small
+          primary
+          context="GET STARTED"
+        >
+        </Button>
       </div>
     </header>
   );

@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../Button'
 import './styles.css'
 
 export default function Hero(props) {
@@ -11,8 +12,16 @@ export default function Hero(props) {
         <h2>{props.heroTitle}</h2>
         <p>{props.heroDescription}</p>
         <div className="hero-buttons">
-          <button className="button">GET STARTED WITH GITHUB</button>
-          <button className="button">GET STARTED</button>
+          <Button
+            secondary
+            large
+            context="GET STARTED WITH GITHUB"
+          />
+          <Button
+            primary
+            large
+            context="GET STARTED"
+          />
         </div>
       </div>
     </div>
